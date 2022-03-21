@@ -22,7 +22,7 @@ def generateClick():
     for t in tags : msg = msg + str(t) + "\n"
     # callback when the generate button clicked
     pyperclip.copy(msg)
-    showinfo( titlec='Hashtags Generated', message = msg +"Success! The hashtags have been copied to your clipboard \n")        
+    showinfo( title='Hashtags Generated', message = msg +"Success! The hashtags have been copied to your clipboard \n")        
 
 
 # Sign in frame

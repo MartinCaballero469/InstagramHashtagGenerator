@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 class HashtagGenerator:
     # Returns list of tags
     def GenerateTags(self,tag = [],ammount = 0):
-        driver = webdriver.Chrome(executable_path='C:\Program Files (x86)\chromedriver.exe')
+        driver = webdriver.Chrome(executable_path='/chromedriver.exe')
         implWait = driver.implicitly_wait(10)
         generatedTags = []
         # Login to Instagram

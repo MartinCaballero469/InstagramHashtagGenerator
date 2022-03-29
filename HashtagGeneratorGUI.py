@@ -1,7 +1,8 @@
 import tkinter as tk
 from tkinter import ttk
 from tkinter.messagebox import showinfo
-import hashtagGenerator as htg
+from webbrowser import get
+import HashtagGenerator as htg
 import pyperclip
 #hashtag Gen Function
 
